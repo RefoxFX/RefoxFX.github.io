@@ -77,14 +77,26 @@ header{
     position: absolute;
 }
 .info_list ul{
+    padding: 0px;
     margin: 0px;
-    height: 90px;
     background-color: aliceblue;
     list-style: none;
 }
-.info_list ul a{
+.info_list ul li a{
+    padding: 10px 0px 10px 0px;
+    font-size: 21px;
+    display: block;
+    text-align: center;
+    width: 140px;
     color: black;
     text-decoration: none;
+}
+.info_list li{
+    border: 1px solid rgb(0,61,80);
+    width: 140px;
+}
+.info_list ul li:hover{
+    background-color: aqua;
 }
 .info_list_visible{
    display: block;

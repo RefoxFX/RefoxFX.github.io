@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: rgb(0,61,80);
     margin-top: 0px; 
@@ -125,4 +126,108 @@ header{
 }
 .info_list_visible{
    display: block;
+=======
+body{
+    background-color: rgb(0,61,80);
+    margin-top: 0px; 
+}
+header{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25px;
+    height: 70px;
+    width: 80%;
+    background-color: rgba(45,46,48, .7);
+}
+.header_not_logo, #logo, #info{
+    transition: 0.4s;
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: white;
+}
+#logo{
+    margin-top: 20px;
+    width: 110px;
+    height: 29px;
+    font-size: 25px;
+    margin-left: 20px;
+}
+#logo:hover{
+    text-shadow: 1px 1px 25px white;
+}
+
+.header_not_logo{
+    height: 70px;
+    width: 92px;
+}
+.header_not_logo:hover{
+    border: 1px;
+    background-color: rgb(0,61,80);
+}
+.header_not_logo span{
+    text-align: center;
+    width: 92px;
+    position: absolute;
+    margin-top: 25px;
+    
+}
+#forum{
+    margin-left:140px;
+}
+
+#rules{
+    margin-left: 230px;
+}
+
+#donate{
+     margin-left: 322px;
+}
+
+.info{
+    margin-left: 414px;
+}
+#info{ 
+    width: 140px;
+}
+#triangle{
+    font-size: 10px;
+    width: 11px;
+}
+
+.info_list{
+    display: none;
+    transition: 0.5s all;
+    padding: 0px;
+    width: 140px;
+    font-size: 20px;
+    margin-top: 70px;
+    position: absolute;
+}
+.info_list ul{
+    padding: 0px;
+    margin: 0px;
+    background-color: aliceblue;
+    list-style: none;
+}
+.info_list ul li a{
+    padding: 10px 0px 10px 0px;
+    font-size: 21px;
+    display: block;
+    text-align: center;
+    width: 140px;
+    color: black;
+    text-decoration: none;
+}
+.info_list li{
+    border: 1px solid rgb(0,61,80);
+    width: 140px;
+}
+.info_list ul li:hover{
+    background-color: aqua;
+}
+.info_list_visible{
+   display: block;
+>>>>>>> origin/master
 }

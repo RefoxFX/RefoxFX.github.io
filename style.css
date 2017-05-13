@@ -75,7 +75,7 @@ header{
 .info_hover:hover{
     background-color: rgb(0,61,80);
 }
-#info{ 
+#info{
     width: 139px;
 }
 .info_light{
@@ -109,12 +109,16 @@ header{
 }
 .info_list ul li a{
     padding: 10px 0px 10px 0px;
-    font-size: 21px;
+    font-size: 16px;
     display: block;
     text-align: center;
     width: 140px;
     color: black;
     text-decoration: none;
+}
+#book_icon{
+    font-family: Wingdings;
+    font-size: 17px;
 }
 .info_list li{
     border: 1px solid rgb(0,61,80);
@@ -125,4 +129,17 @@ header{
 }
 .info_list_visible{
    display: block;
+}
+#FAQ{
+    margin-right: 10px;
+}
+#sign_up{  
+    margin-left:69%;
+    width: 132px;
+}
+#sign_up span{
+    width: 132px;
+}
+#sign_in{
+    margin-left:63%;
 }

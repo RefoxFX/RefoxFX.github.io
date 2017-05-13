@@ -1,7 +1,9 @@
 jQuery('document').ready(function(){
        jQuery('#info').click(function(){
-           
-    var menu_visible = jQuery('.info_list');
-    menu_visible.toggleClass('info_list_visible');
+    jQuery('.info_list').toggleClass('info_list_visible');
+    jQuery('#info').toggleClass('info_light');
+    jQuery('#info_span').toggleClass('info_span_light');
+    jQuery('#triangle').toggleClass('info_triangle_light');
+    jQuery('#info').toggleClass('info_hover');
                                });                   
 });

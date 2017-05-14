@@ -9,6 +9,4 @@ $('document').ready(function(){
 });
 $(window).resize(function(){
     var window_size = $(window).width();
-    alert(window_size);
-    
 });

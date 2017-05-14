@@ -7,6 +7,7 @@ header{
     height: 70px;
     width: 80%;
     min-width: 820px;
+    max-width: 1200px;
     background-color: rgba(45,46,48, .5);
 }
 .header_not_logo, #logo, #info{
@@ -126,11 +127,11 @@ header{
    display: block;
 }
 #sign_up{
-    margin-left:68%;
+    margin-left:965px;
     width: 132px;
 }
 #sign_in{
-    margin-left:60%;
+    margin-left: 850Px;;
 }
 .sign{
     color: rgba(255, 255, 255, 0.5);

@@ -3,11 +3,11 @@ body{
     margin-top: 0px; 
 }
 header{
-    margin: 2% 10% auto 10%;
+    margin: auto;
+    margin-top: 30px;
     height: 70px;
     width: 80%;
-    min-width: 1200px;
-    max-width: 1200px;
+    width: 1200px;
     background-color: rgba(45,46,48, .5);
 }
 .header_not_logo, #logo, #info{

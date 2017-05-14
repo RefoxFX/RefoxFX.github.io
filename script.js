@@ -5,5 +5,10 @@ $('document').ready(function(){
     $('#info span').toggleClass('info_span_light');
     $('#triangle').toggleClass('info_triangle_light');
     $('#info').toggleClass('info_hover');
-                               });                   
+                               });
+});
+$(window).resize(function(){
+    var window_size = $(window).width();
+    alert(window_size);
+    
 });

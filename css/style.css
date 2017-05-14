@@ -3,11 +3,10 @@ body{
     margin-top: 0px; 
 }
 header{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 25px;
+    margin: 2% 10% auto 10%;
     height: 70px;
     width: 80%;
+    min-width: 820px;
     background-color: rgba(45,46,48, .5);
 }
 .header_not_logo, #logo, #info{
@@ -127,11 +126,11 @@ header{
    display: block;
 }
 #sign_up{
-    margin-left:64%;
+    margin-left:68%;
     width: 132px;
 }
 #sign_in{
-    margin-left:56%;
+    margin-left:60%;
 }
 .sign{
     color: rgba(255, 255, 255, 0.5);

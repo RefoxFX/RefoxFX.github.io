@@ -6,7 +6,7 @@ header{
     margin: 2% 10% auto 10%;
     height: 70px;
     width: 80%;
-    min-width: 820px;
+    min-width: 1200px;
     max-width: 1200px;
     background-color: rgba(45,46,48, .5);
 }
@@ -126,13 +126,6 @@ header{
 .info_list_visible{
    display: block;
 }
-#sign_up{
-    margin-left:915px;
-    width: 132px;
-}
-#sign_in{
-    margin-left: 800px;;
-}
 .sign{
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
@@ -157,4 +150,18 @@ header{
     width: 112px;
     text-align: left;
     padding-left: 27px;
+}
+#sign_in{
+    margin-left: 890px;
+}
+#sign_up{
+    margin-left: 1000px;
+    width: 132px;
+}
+#sign{
+    margin-left: 560px;
+    display: block;
+    position: static;
+    width: 254px;
+    height: 70px;
 }

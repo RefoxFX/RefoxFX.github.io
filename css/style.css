@@ -8,7 +8,7 @@ header{
     margin-top: 25px;
     height: 70px;
     width: 80%;
-    background-color: rgba(45,46,48, .7);
+    background-color: rgba(45,46,48, .5);
 }
 .header_not_logo, #logo, #info{
     transition: 0.4s;
@@ -66,7 +66,7 @@ header{
     width: 92px;
     margin-left: 414px;
 }
-.info span{
+#info_span{
     text-align: center;
     width: 92px;
     position: absolute;
@@ -116,10 +116,6 @@ header{
     color: black;
     text-decoration: none;
 }
-#book_icon{
-    font-family: Wingdings;
-    font-size: 17px;
-}
 .info_list li{
     border: 1px solid rgb(0,61,80);
     width: 140px;
@@ -130,16 +126,35 @@ header{
 .info_list_visible{
    display: block;
 }
-#FAQ{
-    margin-right: 10px;
-}
-#sign_up{  
+#sign_up{
     margin-left:64%;
     width: 132px;
 }
-#sign_up span{
-    width: 132px;
-}
 #sign_in{
-    margin-left:58%;
+    margin-left:56%;
+}
+.sign{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    height: 16px;
+    border: 1px solid #588086; 
+    margin-top: 14px;
+    padding: 10px 5px 15px 5px;
+    height: 16px;
+}
+.sign:hover{
+    color: white;
+    background-color: rgba(45,46,48, 0);
+    border: 1px solid #03a9f4;
+}
+.sign span:hover{
+    color:red;
+}
+.info_list span{
+    margin-right: 4px;
+}
+#FAQ{
+    width: 112px;
+    text-align: left;
+    padding-left: 27px;
 }

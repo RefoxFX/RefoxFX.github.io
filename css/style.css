@@ -110,7 +110,7 @@ header{
 .info_list ul{
     padding: 0px;
     margin: 0px;
-    background-color: aliceblue;
+    background-color: white;
     list-style: none;
 }
 .info_list ul li a{
@@ -127,7 +127,7 @@ header{
     width: 139px;
 }
 .info_list ul li:hover{
-    background-color: #71E090;
+    background-color: #4CD0E1;
 }
 .info_list_visible{
    display: block;

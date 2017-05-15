@@ -1,6 +1,12 @@
+html{
+    background: url(../images/bg.jpg) 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
 body{
-    background-color: rgb(0,61,80);
-    margin-top: 0px; 
+    
+    margin-top: 0px;
+    margin: 0px;
 }
 header{
     margin: auto;
@@ -20,10 +26,10 @@ header{
 }
 #logo{
     margin-top: 20px;
-    width: 110px;
+    width: 127px;
     height: 29px;
     font-size: 25px;
-    margin-left: 20px;
+    margin-left: 18px;
 }
 #logo:hover{
     text-shadow: 1px 1px 25px white;
@@ -34,7 +40,7 @@ header{
     width: 92px;
 }
 .header_not_logo:hover{
-    background-color: rgb(0,61,80);
+    background-color: rgba(8,53,86, .8);
 }
 .header_not_logo span{
     text-align: center;
@@ -44,15 +50,15 @@ header{
     
 }
 #forum{
-    margin-left:140px;
+    margin-left:159px;
 }
 
 #rules{
-    margin-left: 230px;
+    margin-left: 249px;
 }
 
 #donate{
-     margin-left: 322px;
+     margin-left: 339px;
 }
 
 .info{
@@ -64,7 +70,7 @@ header{
     color: white;
     height: 70px;
     width: 92px;
-    margin-left: 414px;
+    margin-left: 429px;
 }
 #info_span{
     text-align: center;
@@ -73,7 +79,7 @@ header{
     margin-top: 25px;
 }
 .info_hover:hover{
-    background-color: rgb(0,61,80);
+    background-color: rgba(8,53,86, .8);
 }
 #info{
     width: 139px;
@@ -92,7 +98,7 @@ header{
 }
 
 .info_list{
-    margin-left: 413px;
+    margin-left: 428px;
     display: none;
     transition: 0.5s all;
     padding: 0px;
@@ -117,6 +123,7 @@ header{
     text-decoration: none;
 }
 .info_list li{
+    transition: 0.5s all;
     border: 1px solid rgb(0,61,80);
     width: 140px;
 }
@@ -127,7 +134,7 @@ header{
    display: block;
 }
 .sign{
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.7);
     text-align: center;
     height: 16px;
     border: 1px solid #588086; 
@@ -140,9 +147,6 @@ header{
     background-color: rgba(45,46,48, 0);
     border: 1px solid #03a9f4;
 }
-.sign span:hover{
-    color:red;
-}
 .info_list span{
     margin-right: 4px;
 }
@@ -152,16 +156,19 @@ header{
     padding-left: 27px;
 }
 #sign_in{
-    margin-left: 890px;
+    margin-left: 900px;
 }
 #sign_up{
-    margin-left: 1000px;
-    width: 132px;
+    margin-left: 1015px;
+    width: 160px;
 }
-#sign{
-    margin-left: 560px;
-    display: block;
+#sign_up_icon{
     position: static;
-    width: 254px;
-    height: 70px;
+    margin-left: 5px;
+    width: 20px;
+}
+#sign_in_icon{
+    position: static;
+    margin-left: 5px;
+    width: 20px;
 }

@@ -98,11 +98,11 @@ header{
 }
 
 .info_list{
-    margin-left: 428px;
+    margin-left: 429px;
     display: none;
     transition: 0.5s all;
     padding: 0px;
-    width: 140px;
+    width: 139px;
     font-size: 20px;
     margin-top: 70px;
     position: absolute;
@@ -118,14 +118,13 @@ header{
     font-size: 16px;
     display: block;
     text-align: center;
-    width: 140px;
+    width: 139px;
     color: black;
     text-decoration: none;
 }
 .info_list li{
     transition: 0.5s all;
-    border: 1px solid rgb(0,61,80);
-    width: 140px;
+    width: 139px;
 }
 .info_list ul li:hover{
     background-color: #71E090;

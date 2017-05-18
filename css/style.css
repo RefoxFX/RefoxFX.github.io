@@ -172,7 +172,30 @@ header{
     width: 20px;
 }
 .news{
+    height: 
+    position: absolute;
     margin: auto;
-    margin-top: 40px;
-    width: 700px;
+    width: 800px;
 }
+.block{
+    margin-left: 850px;
+    position: absolute
+    margin: auto;
+    width: 350px;
+}
+.main{
+    padding-top: 40px;
+    width: 1200px;
+    margin: auto;
+}
+.img_news{
+    border: 1px solid black;
+    width: 798px;
+    height: 200px;
+}
+.newses{
+    position: absolute;
+    width: 800px;
+    height: 1000px;
+}
+

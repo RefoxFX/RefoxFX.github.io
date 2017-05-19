@@ -98,6 +98,7 @@ header{
 }
 
 .info_list{
+    z-index: 1;
     margin-left: 429px;
     display: none;
     transition: 0.5s all;
@@ -172,7 +173,9 @@ header{
     width: 20px;
 }
 .news{
-    height: 
+    box-shadow: 0 0 50px #000000 inset;
+    background-image: url(../images/bg.jpg);
+    height: 240px; 
     position: absolute;
     margin: auto;
     width: 800px;
@@ -195,7 +198,16 @@ header{
 }
 .newses{
     position: absolute;
-    width: 800px;
+    width: 100px;
     height: 1000px;
 }
+.more{
+    margin-top: 208px;
+    left: 590px;
+    height: 25px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+}
 
+   

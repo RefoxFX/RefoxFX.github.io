@@ -47,7 +47,6 @@ header{
     width: 92px;
     position: absolute;
     margin-top: 25px;
-    
 }
 #forum{
     margin-left:159px;
@@ -128,7 +127,7 @@ header{
     width: 139px;
 }
 .info_list ul li:hover{
-    background-color: #4CD0E1;
+    background: #4CD0E1;
 }
 .info_list_visible{
    display: block;
@@ -202,12 +201,25 @@ header{
     height: 1000px;
 }
 .more{
-    margin-top: 208px;
+    transition: 0.3s all;
+    background: #116572;
+    border-radius: 1px;
+    border: 1px solid #607d8b;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 1px;
     left: 590px;
     height: 25px;
     width: 200px;
-    background-color: red;
     position: absolute;
 }
-
-   
+.more span{
+    font-family: arial;
+    color: white;
+    display: block;
+    margin-top: 4px;
+}
+.more:hover{
+    background: #088898;
+}
